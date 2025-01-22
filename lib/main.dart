@@ -36,7 +36,7 @@ class _animationState extends State<animation> {
             ),
             ElevatedButton(onPressed: (){
                 setState(() {
-                   w==200 ? w=400: w=200;
+                   w==200 ? w=300: w=200;
                 });
             }, child: Text("move")),
           ],
